@@ -26,8 +26,7 @@
     
    
 ## Methods
-I have two target variables, h1n1 vaccine and flu vaccine. I wanted to split them into two different sections and analsize each one of them 
-independly. For h1n1 I first analyed what differenciates those individuals who did not recieve the vaccine from those who did recieve it. I looked at their concern about the h1n1 virus, by race, age, gender, education and if they had a chronic medical condition,
+I have two target variables, the h1n1 vaccine and flu vaccine. I wanted to split them into two different sections and analyze each one of them independently. For h1n1 I first analyzed what differentiates those individuals who did not receive the vaccine from those who did receive it. I looked at their concern about the h1n1 virus, by race, age, gender, education, and if they had a chronic medical condition. 
    
 ## EDA Results Notable Features
 
