@@ -79,5 +79,5 @@ Please review the full analysis of the Seasonal Flu vaccine in these notebooks [
 ├── Presentation.pdf                           <- PDF of our project presentation  
 └── README.md                                  <- The README.md
 ```
-####
+#### Sources
 1) https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/
