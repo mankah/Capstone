@@ -15,12 +15,12 @@
   
 
 ## Business Problem
-
+A non-profit wants to see the factors that determine if any individual has recieved either the H1N1 vaccine or the Flu Vaccine. 
  
 ## Data
+The Data was collected from Driven Data[1](#sources) and contained 34 rows of information about an individual and two separate target columns that contained if an individual had received the H1N1 vaccine and/or the Flu vaccine. Some of the columns contained information that was represented as random character strings and three columns had about half their information missing. I dropped the three columns that had about half of their data missing and for the other columns imputed the most frequent value.
 
-
- #### Driven Data
+#### Driven Data
     * training_set_features.csv
     * training_set_labels.csv
     
@@ -60,7 +60,6 @@ Please review the full analysis of the Seasonal Flu vaccine in these notebooks [
 ## Repositroy Structure
 ```  
 ├── data                                       <- Sourced from an external source
-├── images                                     <- Images that were used in the presentation and notebooks
 ├── Flu_analysis_models                        <- The Notebooks for Seasonal Flu Analysis and Models
     ├── 00_Seasonal_Flu_Analysis.ipynb         <- Analysis of Seasonal Flu Vaccine  
     ├── 01_Data_Cleaning_Flu.ipynb             <- Data Cleaning and Prep for Seasonal Flu                                   
@@ -75,7 +74,10 @@ Please review the full analysis of the Seasonal Flu vaccine in these notebooks [
     ├── 03_Random_Forest_Gradiant_Boost.ipynb  <- Random Forest Model
     ├── 04_XGBoost.ipynb                       <- XGBoost Model
     └── 05_Keras.ipynb                         <- Keras Model
+├── images                                     <- Images that were used in the presentation and notebooks    
 ├── gitignore                                  <- python files to ignore 
 ├── Presentation.pdf                           <- PDF of our project presentation  
 └── README.md                                  <- The README.md
 ```
+####
+1) https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/
