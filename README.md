@@ -14,7 +14,8 @@
 - [Repository Structure](#Repositroy-Structure)
   
 
-## Business Problem  
+## Business Problem
+
  
 ## Data
 
@@ -25,8 +26,9 @@
     
    
 ## Methods
-
-    
+I have two target variables, h1n1 vaccine and flu vaccine. I wanted to split them into two different sections and analsize each one of them 
+independly. For h1n1 I first analyed what differenciates those individuals who did not recieve the vaccine from those who did recieve it. I looked at their concern about the h1n1 virus, by race, age, gender, education and if they had a chronic medical condition,
+   
 ## EDA Results Notable Features
 
 
@@ -41,7 +43,7 @@ When comparing the vaccination status for H1N1 and the level of concern we find 
 
 
 ### Seasonal Flu Vaccine
-
+*Flu Analysis*
  
 ## Modeling Results
 
