@@ -59,18 +59,19 @@ Please review our full analysis in different notebooks [Aurora, CO](./notebooks/
 ├── data                                       <- Sourced from an external source
 ├── images                                     <- Images that were used in the presentation and notebooks
 ├── Flu_analysis_models                        <- The Notebooks for Seasonal Flu Analysis and Models
-    ├── Seasonl_Flu_Analysis.ipynb             <- Analysis of Seasonal Flu Vaccine
-    ├── *TBD*                                  <- First set of models
-    ├── *TBD*                                  <- Random Forest and Gradiant Boost Models
-    ├── *TBD*                                  <- XGBoost Model
-    └── *TBD*                                  <- *WILL BE A KERAS MODEL* 
+    ├── 00_Seasonal_Flu_Analysis.ipynb         <- Analysis of Seasonal Flu Vaccine  
+    ├── 01_Data_Cleaning_Flu.ipynb             <- Data Cleaning and Prep for Seasonal Flu                                   
+    ├── 02_Logistic_KNN_SVC_Flu.ipynb          <- First set of models
+    ├── 03_Random_Forest_Gradiant_Boost.ipynb  <- Random Forest and Gradiant Boost Models
+    ├── 04_XGBoost.ipynb                       <- XGBoost Model
+    └── 05_Keras.ipynb                         <- Keras Model 
 ├── H1N1_analysis_models                       <- The notebooks that for H1N1 Analysis and Models
     ├── 00_H1N1_Analysis.ipynb                 <- Analysis of H1N1 Vaccine
     ├── 01_Data_Cleaning_H1N1.ipynb            <- Data Cleaning and Prep for H1N1
     ├── 02_Logistic_KNN_SVC_H1N1.ipynb         <- The first set of models
     ├── 03_Random_Forest_Gradiant_Boost.ipynb  <- Random Forest Model
     ├── 04_XGBoost.ipynb                       <- XGBoost Model
-    └── 05_TBD                                 <- *WILL BE A KERAS MODEL*
+    └── 05_Keras.ipynb                         <- Keras Model
 ├── gitignore                                  <- python files to ignore 
 ├── Presentation.pdf                           <- PDF of our project presentation  
 └── README.md                                  <- The README.md
