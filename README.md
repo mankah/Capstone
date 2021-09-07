@@ -33,10 +33,10 @@
 ### H1N1 Vaccine
 
 #####
-![image](.images/H1N1_and_race.png)
+![image](./images/H1N1_and_race.png)
 When comparing the vaccination status for H1N1 and the level of concern we find there is a difference between the level of concern of those who did receive the vaccine and those who did not. Looking at those individuals who had did not receive the H1N1 vaccine we see that $13.59%$ had no concern, $32.23%$ had very little concern, $38.66%$ were somewhat concerned and only $15.51%$ were very concerned. Comparing that to those people who did receive the vaccine we see that their rate of concern was $7.90%$, $24.69%$, $43.71%$, and $23.70%$ respectively for each group. For people who received the vaccine, their rate of not being concerned at all was $5.69%$ lower than those who did not receive the vaccine. This makes sense intuitively since people who are not concerned about an illness are less likely to take precautions to prevent or lower their chances of getting severely sick because of that illness. For people who received the vaccine, their rate of not very concerned was $7.54%$ lower than those who did not receive the vaccine. Again, people who are not concerned about an illness are less likely to take a vaccine that will help to prevent serious illness or death against that very illness. Those two groups provide no surprise to the difference between those individuals who were vaccinated and those who were not. Now, if we look at the two groups of people who were at least somewhat concerned we should expect the difference in group sizes to be larger than those who were not vaccinated. Looking first at people who were somewhat concerned we see that this group is $5.05%$ larger than the same group in non-vaccinated people. Finally looking at the difference for people who are very concerned we see that the difference is $8.19%$, the largest of all the groups between vaccinated and non vaccinated people.
 
-![image](.images/H1N1_concern_vaccination.png)
+![image](./images/H1N1_concern_vaccination.png)
 
 
 
