@@ -55,7 +55,7 @@ When comparing the vaccination status for H1N1 and the level of concern we find 
 ## For More Information
 Please review the full analysis of the H1N1 vaccine in these notebooks [H1N1 Analysis](./H1N1_analysis_models/00_H1N1_Analysis.ipynb), [Data Cleaning](./H1N1_analysis_models/01_Data_Cleaning_H1N1.ipynb), [First Set of Models](./H1N1_analysis_models/02_Logistic_KNN_SVC_H1N1.ipynb), [Second Set of Models](./H1N1_analysis_models/03_Random_Forest_Gradiant_Boost.ipynb), [XGBoost Models](./H1N1_analysis_models/04_XGBoost.ipynb) and [Neural Network](./H1N1_analysis_models/05_Keras.ipynb).
 
-Please review the full analysis of the Seasonal Flu vaccine in these notebooks [Flu Analysis](./Flu_analysis_models/00_Seasonal_Flu_Analysis.ipynb), [Data Cleaning](./Flu_analysis_models/01_Data_Cleaning_H1N1.ipynb), [First Set of Models](./Flu_analysis_models/02_Logistic_KNN_SVC_H1N1.ipynb), [Second Set of Models](./Flu_analysis_models/03_Random_Forest_Gradiant_Boost.ipynb), [XGBoost Models](./Flu_analysis_models/04_XGBoost.ipynb) and [Neural Network](./Flu_analysis_models/05_Keras.ipynb).    
+Please review the full analysis of the Seasonal Flu vaccine in these notebooks [Flu Analysis](./Flu_analysis_models/00_Seasonal_Flu_Analysis.ipynb), [Data Cleaning](./Flu_analysis_models/01_Data_Cleaning_Flu.ipynb), [First Set of Models](./Flu_analysis_models/02_Logistic_KNN_SVC_Flu.ipynb), [Second Set of Models](./Flu_analysis_models/03_Random_Forest_Gradiant_Boost.ipynb), [XGBoost Models](./Flu_analysis_models/04_XGBoost.ipynb) and [Neural Network](./Flu_analysis_models/05_Keras.ipynb).    
     
 ## Repositroy Structure
 ```  
