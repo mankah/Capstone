@@ -43,12 +43,10 @@ When looking at a breakdown of the different races we see that across all of the
 ### Seasonal Flu Vaccine
 
 ![image](./images/seasonal_flu_risk.png)
-
+Comparing the level of concern of those who are not vaccinated to those who are vaccinated we find a stark difference between the two groups. Individuals who are not vaccinated are far more likely to be not worried at all about the flu virus while those individuals who are vaccinated make up only 10% of this category. The difference between the two groups is approximately 24%. The gap between the two groups for being not worried at all is smaller and there are a larger number of vaccinated people who are part of this category. When looking at individuals who are at least somewhat worried we see that vaccinated people make up more than 40% of this category while those who are not vaccinated only make up 18%. In the final category, we see that the difference between the two groups is about 13%. We can see that an individual's concern about the flu virus is a strong indicator of their vaccination status. 
 
 ![image](./images/flu_and_race.png)
- 
-## Modeling Results
-
+When breaking the level of concern by race we see that black individuals are the make up the largest percentage of those individuals who are not at all worried. When looking at individuals who are not very worried white and other race individuals make up the largest percent in this category. When looking at individuals who are somewhat worried white individuals are the largest group in this category. Looking at individuals who are very worried Hispanic individuals are the largest percent in this category. When comparing the different categories we see that most individuals are not very worried about the flu virus followed by somewhat worried. 
     
 ## Conclusions
 The H1N1 vaccination status had a class imbalance with individuals who were not vaccinated making up about 78% of the target variable, while those individuals who were vaccinated only made up about 21% of the target variable. When running all the different models I used SMOTE to try and solve this class imbalance. I first started with logistic regression, KNN Classifier, and an SVC model, the accuracy results I received were 0.77, 0.76, and 0.80. From then I ran two RFC models, one without a grid search and one with and their scores were 0.832 and 0.835 respectively. After this, I ran a Gradient Boost and an XGBoost model and got scores of 0.838 and 0.839. The final models that were run were two neural networks, one without a grid search and one with, their scores were 0.790 and 0.806. The best model was the XGBoost model, which had a score of 0.839.  
@@ -64,7 +62,6 @@ Please review the full analysis of the Seasonal Flu vaccine in these notebooks [
     
 ## Repositroy Structure
 ```  
-├── data                                       <- Sourced from an external source
 ├── Flu_analysis_models                        <- The Notebooks for Seasonal Flu Analysis and Models
     ├── 00_Seasonal_Flu_Analysis.ipynb         <- Analysis of Seasonal Flu Vaccine  
     ├── 01_Data_Cleaning_Flu.ipynb             <- Data Cleaning and Prep for Seasonal Flu                                   
@@ -79,9 +76,10 @@ Please review the full analysis of the Seasonal Flu vaccine in these notebooks [
     ├── 03_Random_Forest_Gradiant_Boost.ipynb  <- Random Forest Model
     ├── 04_XGBoost.ipynb                       <- XGBoost Model
     └── 05_Keras.ipynb                         <- Keras Model
+├── data                                       <- Sourced from an external source
 ├── images                                     <- Images that were used in the presentation and notebooks    
 ├── gitignore                                  <- python files to ignore 
-├── Presentation.pdf                           <- PDF of our project presentation  
+├── Capstone.pdf                               <- PDF of the project presentation  
 └── README.md                                  <- The README.md
 ```
 #### Sources
