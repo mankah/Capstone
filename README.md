@@ -44,6 +44,7 @@ When looking at a breakdown of the different races we see that across all of the
 
 ![image](./images/seasonal_flu_risk.png)
 
+
 ![image](./images/flu_and_race.png)
  
 ## Modeling Results
