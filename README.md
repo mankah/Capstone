@@ -5,7 +5,7 @@
 ## Overview
 - [Business Problem](#Business-Problem)
 - [Data](#Data)
-   - [*TDB*](./data)
+   - [Vaccination Data](./data)
 - [Methods](#Methods)
 - [EDA Results: Notable Features](#EDA-Results-Notable-Features) 
 - [Modeling Results](#Modeling-Results)
@@ -48,7 +48,9 @@ When comparing the vaccination status for H1N1 and the level of concern we find 
 
     
 ## Conclusions
+The H1N1 vaccination status had a class imbalance with individuals who were not vaccinated making up about 78% of the target variable, while those individuals who were vaccinated only made up about 21% of the target variable. When running all the different models I used SMOTE to try and solve this class imbalance. I first started with logistic regression, KNN Classifier, and an SVC model, the accuracy results I received were 0.77, 0.76, and 0.80. From then I ran two RFC models, one without a grid search and one with and their scores were 0.832 and 0.835 respectively. After this, I ran a Gradient Boost and an XGBoost model and got scores of 0.838 and 0.839. The final models that were run were two neural networks, one without a grid search and one with, their scores were 0.790 and 0.806. The best model was the XGBoost model, which had a score of 0.839.  
 
+The flu vaccination status had more balanced classes, I also choose accuracy as what my models were maximizing. The first three models run were also a logistic regression, KNN Classifier, and an SVC, and the scores were 0.776, 0.737, and 0.780. Next, a Random Forest and a Gradient Boost Classifier were run returning scores of 0.779 and 0.7836 respectively. The final two models that were run were an XGBoost and a neutral network which returned scores of 0.7846 and 0.756 respectively. The best model of all was also the XGBoost which returned a score of 0.7846.  
 
     
     
