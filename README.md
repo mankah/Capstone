@@ -80,7 +80,8 @@ Please review the full analysis of the Seasonal Flu vaccine in these notebooks [
 ├── images                                     <- Images that were used in the presentation and notebooks    
 ├── gitignore                                  <- python files to ignore 
 ├── Capstone.pdf                               <- PDF of the project presentation  
-└── README.md                                  <- The README.md
+├── README.md                                  <- The README.md
+└── data_dictionary.txt                        <- Data Dictionary
 ```
 #### Sources
 1) https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/
